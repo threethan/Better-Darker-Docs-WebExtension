@@ -1,0 +1,46 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        filter: invert() hue-rotate(180deg) !important;
+    }
+    .docs-material-colorpalette-body div {
+        filter: invert() hue-rotate(180deg) !important;
+    }
+    
+    .goog-color-menu-button-indicator, .goog-color-menu-button-indicator .goog-inline-block,
+    .onegoogle-material-minibar img, .onegoogle-material-minibar svg, .docs-branding-icon-img, .jfk-tooltip  {
+        filter: invert() hue-rotate(180deg) !important;
+    }
+    #docs-instant-bubble, .goog-menu, .app-switcher-button-icon-background {
+        box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
+        color: white;
+        background-color: #EEEFF2 !important;
+    }
+    .goog-menuitem-highlight {
+        background-color: #CCC !important
+    }
+    .modal-dialog-bg {
+        background-color: #EEE !important;
+    }
+    .ac-renderer, .modal-dialog {
+        box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
+    }
+
+
+    /* Home screen */
+    .docs-homescreen-icon  {
+        filter: invert() hue-rotate(180deg) !important;
+    }
+
+    .docs-homescreen-gb-container header div div a img {
+        filter: invert() hue-rotate(180deg) !important;
+    }
+
+    .quantumWizButtonEl {
+        box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
+        color: white;
+        background-color: #EEEFF2 !important;
+    }
+}
+#docs-toolbar-wrapper {
+    filter: brightness(99%);
+}

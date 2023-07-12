@@ -1,0 +1,8 @@
+@media (prefers-color-scheme: dark) {
+    canvas {
+        filter: invert() hue-rotate(180deg) !important;
+    }
+    .kix-appview-editor:not(:has(.kix-page-paginated)) {
+        background-color: #f2f2f4 !important;
+    }
+}

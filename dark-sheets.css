@@ -1,0 +1,5 @@
+@media (prefers-color-scheme: dark) {
+    canvas {
+        filter: hue-rotate(180deg) !important;
+    }
+}
