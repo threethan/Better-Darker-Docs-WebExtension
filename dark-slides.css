@@ -1,0 +1,59 @@
+:root.bdd-dark  body {
+    filter: none !important;
+}
+
+:root.bdd-dark  .docs-material-colorpalette-body div {
+    filter: none !important;
+}
+
+:root.bdd-dark .goog-color-menu-button-indicator, 
+:root.bdd-dark .goog-color-menu-button-indicator .goog-inline-block,
+:root.bdd-dark .jfk-tooltip  {
+    filter: none !important;
+}
+:root.bdd-dark #docs-chrome, :root.bdd-dark .goog-menu, :root.bdd-dark .modal-dialog-bg, :root.bdd-dark .modal-dialog,
+:root.bdd-dark #speakernotes {
+    filter: invert() hue-rotate(180deg);
+}
+
+:root.bdd-dark .companion-app-switcher-guest-container {
+    height: 100vh;
+}
+:root.bdd-dark .companion-collapser-button-container   {
+    top: 0;
+}
+
+:root.bdd-dark #filmstrip-controls,
+:root.bdd-dark #speakernotes-container,
+:root.bdd-dark #speakernotes-dragger,:root.bdd-dark  #speakernotes-dragger:hover,
+:root.bdd-dark #docs-editor-container
+    {
+    background: #020305 !important;
+}
+:root.bdd-dark #filmstrip, :root.bdd-dark #pages, :root.bdd-dark #workspace, :root.bdd-dark #slides-view {
+    background-color: #020305 !important;
+}
+
+:root.bdd-dark .punch-theme-sidebar, :root.bdd-dark .punch-theme-sidebar div,
+:root.bdd-dark .punch-animation-sidebar, :root.bdd-dark .punch-animation-sidebar div {
+    background-color: #090e16 !important;
+    color: white !important
+}
+:root.bdd-dark .punch-theme-sidebar .jfk-button,
+:root.bdd-dark .punch-animation-sidebar .jfk-button,
+:root.bdd-dark .punch-theme-sidebar .jfk-button div,
+:root.bdd-dark .punch-animation-sidebar .jfk-button div {
+    background-color: #eea967 !important;
+}
+
+:root.bdd-dark .sketchy-horizontal-ruler-container,
+:root.bdd-dark .sketchy-vertical-ruler-container,
+:root.bdd-dark .punch-filmstrip-thumbnail-pagenumber,
+:root.bdd-dark #filmstrip-grid-view-controls-container,
+:root.bdd-dark #filmstrip-visibility-controls-container {
+    filter: invert() hue-rotate(180deg) brightness(70%) !important;
+}
+:root.bdd-dark rect[fill="#ffffff"] {
+    fill-opacity: 1 !important;
+    fill: #0d0d0f !important;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="options.css">
+  </head>
+
+  <body>
+    <form>
+        <b>Enable Dark Mode</b>
+        <input type="radio" id="dm_off"    name="darkmode" value="off">
+        <label for="dm_off">  Never</label><br>
+        <input type="radio" id="dm_auto"   name="darkmode" value="auto">
+        <label for="dm_auto">  Auto</label><br>
+        <input type="radio" id="dm_always" name="darkmode" value="always">
+        <label for="dm_always">Always</label><br>
+        <div class="sec"></div>
+        <b>Extra Settings</b>
+        <input type="checkbox" id="sp_switch" name="subpixel" value="auto">
+        <label for="sp_switch">ClearType in Docs</label><br>
+    </form>
+    <sup>Disable if you have issues</sup>
+
+    <script src="options.js"></script>
+  </body>
+</html>

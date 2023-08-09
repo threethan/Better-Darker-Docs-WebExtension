@@ -1,46 +1,58 @@
-@media (prefers-color-scheme: dark) {
-    body {
-        filter: invert() hue-rotate(180deg) !important;
-    }
-    .docs-material-colorpalette-body div {
-        filter: invert() hue-rotate(180deg) !important;
-    }
-    
-    .goog-color-menu-button-indicator, .goog-color-menu-button-indicator .goog-inline-block,
-    .onegoogle-material-minibar img, .onegoogle-material-minibar svg, .docs-branding-icon-img, .jfk-tooltip  {
-        filter: invert() hue-rotate(180deg) !important;
-    }
-    #docs-instant-bubble, .goog-menu, .app-switcher-button-icon-background {
-        box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
-        color: white;
-        background-color: #EEEFF2 !important;
-    }
-    .goog-menuitem-highlight {
-        background-color: #CCC !important
-    }
-    .modal-dialog-bg {
-        background-color: #EEE !important;
-    }
-    .ac-renderer, .modal-dialog {
-        box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
-    }
 
-
-    /* Home screen */
-    .docs-homescreen-icon  {
-        filter: invert() hue-rotate(180deg) !important;
-    }
-
-    .docs-homescreen-gb-container header div div a img {
-        filter: invert() hue-rotate(180deg) !important;
-    }
-
-    .quantumWizButtonEl {
-        box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
-        color: white;
-        background-color: #EEEFF2 !important;
-    }
+:root.bdd-dark body {
+    filter: invert() hue-rotate(180deg) !important;
 }
-#docs-toolbar-wrapper {
-    filter: brightness(99%);
+:root.bdd-dark .docs-material-colorpalette-body div {
+    filter: invert() hue-rotate(180deg) !important;
+}
+
+:root.bdd-dark .goog-color-menu-button-indicator,
+:root.bdd-dark .goog-color-menu-button-indicator .goog-inline-block,
+:root.bdd-dark .onegoogle-material-minibar img, 
+:root.bdd-dark .onegoogle-material-minibar svg, 
+:root.bdd-dark .docs-branding-icon-img, 
+:root.bdd-dark .jfk-tooltip  {
+    filter: invert() hue-rotate(180deg) !important;
+}
+:root.bdd-dark #docs-instant-bubble, 
+:root.bdd-dark .goog-menu, 
+:root.bdd-dark .app-switcher-button-icon-background {
+    box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
+    color: white;
+    background-color: #EEEFF2 !important;
+}
+:root.bdd-dark .goog-menuitem-highlight {
+    background-color: #CCC !important
+}
+:root.bdd-dark .modal-dialog-bg {
+    background-color: #EEE !important;
+}
+:root.bdd-dark .ac-renderer, 
+:root.bdd-dark .modal-dialog {
+    box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
+}
+
+/* Home screen */
+:root.bdd-dark .docs-homescreen-icon  {
+    filter: invert() hue-rotate(180deg) !important;
+}
+
+:root.bdd-dark .docs-homescreen-gb-container header div div a img {
+    filter: invert() hue-rotate(180deg) !important;
+}
+
+:root.bdd-dark .quantumWizButtonEl {
+    box-shadow: 0 0 0 1px #CCC, 0 0 5px 1px #FFF !important;
+    color: white;
+    background-color: #EEEFF2 !important;
+}
+
+/* Fix layering issues */
+:root.bdd-dark #docs-chrome {
+    position: relative;
+    z-index: 2;
+}
+:root.bdd-dark #docs-editor-container {
+    position: relative;
+    z-index: 1;
 }

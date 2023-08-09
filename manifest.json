@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Better Darker Docs",
   "author": "Ethan Medeiros",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Gives Google Docs, Sheets, Slides, and Drawings a proper dark mode - based on system theme, and clearer text",
   "icons": {
     "48": "icon-48.png"
@@ -15,6 +15,9 @@
       "run_at": "document_start",
       "css": [
         "dark.css"
+      ],
+      "js": [
+        "options-manager.js"
       ]
     },
     {
@@ -22,7 +25,7 @@
         "*://docs.google.com/document*"
       ],
       "js": [
-        "inject-docs.js"
+        "docs.js"
       ],
       "run_at": "document_start",
       "css": [
@@ -34,14 +37,26 @@
         "*://docs.google.com/spreadsheet*"
       ],
       "js": [
-        "inject-sheets.js"
+        "sheets.js"
       ],
       "run_at": "document_start",
       "css": [
         "dark-sheets.css"
       ]
+    },
+    {
+      "matches": [
+        "*://docs.google.com/presentation*"
+      ],
+      "css": [
+        "dark-slides.css"
+      ]
     }
   ],
+  "browser_action": {
+    "default_popup": "options.html"
+  },
+  "permissions": ["storage"],
   "browser_specific_settings": {
     "gecko": {
       "id": "batterdarkerdocs@threethan.github.io",
