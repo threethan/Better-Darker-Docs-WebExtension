@@ -4,4 +4,6 @@ Provides custom scripts and styles to give the google docs suite a proper dark m
 
 Since this hooks document rendering (through canvas function overrides), document appearance will be much more accurate than css-only modifications offered by other extensions.
 
+## [Download Better Darker Docs on Firefox Extentions!](https://addons.mozilla.org/en-US/firefox/addon/better-darker-docs/)
+
 Licenced under the MIT LICENSE
