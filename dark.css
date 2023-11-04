@@ -56,3 +56,8 @@
     position: relative;
     z-index: 1;
 }
+
+/* Mobile Background */
+.app-container {
+    background: white;
+}

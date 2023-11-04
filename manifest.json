@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Better Darker Docs",
   "author": "Ethan Medeiros",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Gives Google Docs, Sheets, Slides, and Drawings a proper dark mode - based on system theme, and clearer text",
   "icons": {
     "48": "icon-48.png"
